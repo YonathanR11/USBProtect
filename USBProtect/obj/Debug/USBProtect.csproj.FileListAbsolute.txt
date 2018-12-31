@@ -1,0 +1,14 @@
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBProtect.csprojAssemblyReference.cache
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBProtect.csproj.GenerateResource.cache
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBProtect.csproj.CoreCompileInputs.cache
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\bin\Debug\USBShield.exe
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\bin\Debug\USBShield.pdb
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBProtect.USB.resources
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBShield.Properties.Resources.resources
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBShield.exe
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBShield.pdb
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBShield.helpForm.resources
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\bin\Debug\USBShield.exe.manifest
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\bin\Debug\USBShield.application
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBShield.exe.manifest
+C:\Users\Yonathan\Documents\Visual Studio 2017\Proyectos\USBProtect\USBProtect\obj\Debug\USBShield.application

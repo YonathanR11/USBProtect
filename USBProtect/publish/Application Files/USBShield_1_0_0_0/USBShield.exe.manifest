@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="USBShield.exe" version="1.0.0.0" publicKeyToken="18f541eb57cd67a6" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="LOGO.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="USBShield" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="USBShield.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="USBShield.exe" size="60880">
+      <assemblyIdentity name="USBShield" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zq2TmaK0XLrS+FJ+iDT6Kx0A5uI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LOGO.ico" size="11913">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5Vis5ynRZBrs7ZTCGuBwBM+c1IU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-23IAK2UM\Yonathan" issuerKeyHash="40cf4bcc00e6136bb1cb8008339e60e2326fe10e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TsCQ90G3lWQM0Hd3BzeuVNaF3qI=</DigestValue></Reference></SignedInfo><SignatureValue>rslRqHq5D3YND0Q8qg7ZlWxIXymjwTtOzSVx8FERk8XVfHYry638coFajdD3u1+kB6c3k3gro4xQKHfsLRmGSC80wsd3Pb7bb7h/rfGU22b5kw/NUui4vPypGxcelNUBUc15dn5SI5UirG6BAtCCU9et311+31Nj/OG4dKhRSsw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uVrhQV9XLvH7wOepuhpS8TZPqtZXzj9RE8Y9uj841rbLIeNastR9qwqsu1na3XmyT22DdbH9ylyUS46mEyxzKdMJ0lll85g3PDfGSgCmFkQEuICu/PnlKRpoRjjHliFyV8MaBLGaOM1fKCRzaJq0YxyK35s+w1Nvkc+9/6OqVRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a2de85d654ae37077777d00c6495b741f790c04e" Description="" Url=""><as:assemblyIdentity name="USBShield.exe" version="1.0.0.0" publicKeyToken="18f541eb57cd67a6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-23IAK2UM\Yonathan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Yijd5S9x8N0FiNbkO2sMpesL7k0=</DigestValue></Reference></SignedInfo><SignatureValue>CMZpaCC1gQvG5z+oyhB4S1PIFEME+LQ2bG243U8+pBP0lAw75DUNWS6Safk5AtXnLjx9wRImmX4FzAFoiTOgchBYbnjJKNvQ0c5OaBM6bcwRdl7DX5uCbdRc6TlbN3p5vWsAC0VaGYQ/RIf2ugoVtZk+q73AJOI+Cz9yoIinoNE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uVrhQV9XLvH7wOepuhpS8TZPqtZXzj9RE8Y9uj841rbLIeNastR9qwqsu1na3XmyT22DdbH9ylyUS46mEyxzKdMJ0lll85g3PDfGSgCmFkQEuICu/PnlKRpoRjjHliFyV8MaBLGaOM1fKCRzaJq0YxyK35s+w1Nvkc+9/6OqVRE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQSdxXWCQvu7tOJAirL4qHKTANBgkqhkiG9w0BAQUFADA7MTkwNwYDVQQDHjAATABBAFAAVABPAFAALQAyADMASQBBAEsAMgBVAE0AXABZAG8AbgBhAHQAaABhAG4wHhcNMTgwODIyMDEzODAxWhcNMTkwODIyMDczODAxWjA7MTkwNwYDVQQDHjAATABBAFAAVABPAFAALQAyADMASQBBAEsAMgBVAE0AXABZAG8AbgBhAHQAaABhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALla4UFfVy7x+8DnqboaUvE2T6rWV84/URPGPbo/ONa2yyHjWrLUfasKrLtZ2t15sk9tg3Wx/cpclEuOphMscynTCdJZZfOYNzw3xkoAphZEBLiArvz55SkaaEY4x5YhclfDGgSxmjjNXygkc2iatGMcit+bPsNTb5HPvf+jqlURAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAf7Z1UZV1mjmt4xk0f3bjq6XI/3yDBzJ4eu8ZLF/hHECIOE2jVFcN4er26x/XrwmMHZPITYTeGq6TxCJjYKr90VfVHzbEwAaUYz0id+MS18PCJbJw1XY8/T8xMHMWyDEINbZYj+vZJ1j7COmN9/b7B1E5Hm1bleW/3cITGmf3cEY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
